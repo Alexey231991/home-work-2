@@ -12,8 +12,13 @@ if (a > b) {
 
 
 // Второе задание
-const c = prompt('Введите число');
-alert(c.slice(-1));
+const c = Number(prompt('Введите число'));
+if (c % 2 === 0) {
+    alert('Чётное');
+} else {
+    alert('Не чётное');
+}
+alert(c % 10);
 
 
 // Третье задание
